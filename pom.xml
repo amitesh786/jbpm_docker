@@ -45,6 +45,12 @@
       <version>7.18.0.Final</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jbpm.contrib</groupId>
+      <artifactId>invioMail</artifactId>
+      <version>7.23.0.Final</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
