@@ -1,1 +1,0 @@
-{"id":"7502814b-0982-401d-b559-8730dfe64a89","name":"Task-taskform","model":{"taskName":"Task","processId":"pratica_bapo.pratica_process","name":"task","properties":[],"formModelType":"org.kie.workbench.common.forms.jbpm.model.authoring.task.TaskFormModel"},"fields":[],"layoutTemplate":{"version":2,"style":"FLUID","layoutProperties":{},"rows":[]}}
