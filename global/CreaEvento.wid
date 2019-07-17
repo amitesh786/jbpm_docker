@@ -1,0 +1,30 @@
+[
+        [
+            "name" : "CreaEvento",
+            "displayName" : "CreaEvento",
+            "category" : "insertEntitaService",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.contrib.insertEntitaService.InsertEntitaWorkItemHandler()",
+            "documentation" : "insertEntitaService/index.html",
+
+            "parameters" : [
+                                "tipoEvento" : new StringDataType()
+                ,"codSoggetto" : new StringDataType()
+                ,"codIntermediario" : new StringDataType()
+                ,"idQav" : new StringDataType()
+                ,"frazionario" : new StringDataType()
+
+            ],
+            "results" : [
+                                "result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:insertEntitaService:7.23.0.Final"
+
+            ],
+            "icon" : "icon.png"
+
+        ]
+
+]
