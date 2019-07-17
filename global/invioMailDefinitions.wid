@@ -1,0 +1,26 @@
+[
+        [
+            "name" : "invioMailDefinitions",
+            "displayName" : "invioMailDefinitions",
+            "category" : "invioMail",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.contrib.invioMail.invioMailWorkItemHandler()",
+            "documentation" : "invioMail/index.html",
+
+            "parameters" : [
+                                "mail" : new StringDataType()
+
+            ],
+            "results" : [
+                                "result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:invioMail:7.23.0.Final"
+
+            ],
+            "icon" : "icon.png"
+
+        ]
+
+]
