@@ -12,12 +12,6 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.contrib.insertDocumentiService.InsertDocumentiWorkItemHandler()</identifier>
-            <parameters/>
-            <name>InserisciDocumeti</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
             <identifier>new org.jbpm.contrib.invioMail.invioMailWorkItemHandler()</identifier>
             <parameters/>
             <name>invioMailDefinitions</name>
