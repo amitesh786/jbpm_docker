@@ -1,0 +1,29 @@
+[
+        [
+            "name" : "InserisciDocumeti",
+            "displayName" : "InserisciDocumeti",
+            "category" : "insertDocumentiService",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.contrib.insertDocumentiService.InsertDocumentiWorkItemHandler()",
+            "documentation" : "insertDocumentiService/index.html",
+
+            "parameters" : [
+                                "tipoDocumento" : new StringDataType()
+                ,"idEvento" : new StringDataType()
+                ,"documento" : new StringDataType()
+                ,"dataScadenza" : new StringDataType()
+
+            ],
+            "results" : [
+                                "result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:insertDocumentiService:7.23.0-Final"
+
+            ],
+            "icon" : "icon.png"
+
+        ]
+
+]
