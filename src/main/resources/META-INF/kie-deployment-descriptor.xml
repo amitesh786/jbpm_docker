@@ -18,6 +18,12 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
+            <identifier>new org.jbpm.contrib.aggiornaStatoEntita.AggiornaStatoEntitaWorkItemHandler()</identifier>
+            <parameters/>
+            <name>AggiornaStatoEntitaDefinitions</name>
+        </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
             <identifier>new org.jbpm.contrib.invioMail.invioMailWorkItemHandler()</identifier>
             <parameters/>
             <name>invioMailDefinitions</name>
