@@ -1,0 +1,26 @@
+[
+        [
+            "name" : "AggiornaStatoEntitaDefinitions",
+            "displayName" : "AggiornaStatoEntitaDefinitions",
+            "category" : "aggiornaStatoEntita",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.contrib.aggiornaStatoEntita.AggiornaStatoEntitaWorkItemHandler()",
+            "documentation" : "aggiornaStatoEntita/index.html",
+
+            "parameters" : [
+                                "id" : new StringDataType()
+
+            ],
+            "results" : [
+                                "result" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:aggiornaStatoEntita:7.23.0.Final"
+
+            ],
+            "icon" : "icon.png"
+
+        ]
+
+]
