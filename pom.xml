@@ -63,6 +63,11 @@
       <version>7.23.0.Final</version>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jbpm.contrib</groupId>
+      <artifactId>aggiornaStatoEntita</artifactId>
+      <version>7.23.0.Final</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
